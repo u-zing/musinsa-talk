@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to MUSINSA Talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>08:29</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to MUSINSA Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Musinsa Account, log in with your email or phone number
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <div class="login-form__find-bar">
+        <div class="login-form__find-bar-auto">
+          <input type="checkbox" id="check" />
+          <label for="check">자동 로그인</label>
+        </div>
+        <div class="login-form__find-bar-find">
+          <span>아이디 찾기</span>
+          <span>ㅣ</span>
+          <span>비밀번호 찾기</span>
+        </div>
+      </div>
+      <a href="#">가입만 해도 즉시 30% 할인 <button>회원가입</button></a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/9076bbc1a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
