@@ -1,7 +1,9 @@
 @import "reset.css";
 /*components */
 @import "components/status-bar.css";
-@import "components/nav.css"; /*screen*/
+@import "components/nav.css";
+@import "components/screen-header.css";
+/*screen*/
 @import "screen/login.css";
 
 body {
