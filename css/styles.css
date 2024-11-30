@@ -1,8 +1,7 @@
 @import "reset.css";
 /*components */
 @import "components/status-bar.css";
-
-/*screen*/
+@import "components/nav.css"; /*screen*/
 @import "screen/login.css";
 
 body {
@@ -10,4 +9,5 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: black;
   color: white;
+  height: 100vh;
 }
