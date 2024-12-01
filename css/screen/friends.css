@@ -1,0 +1,68 @@
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 10px 0px;
+}
+.friends-screen {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+.user-component,
+.friends-screen__find {
+  margin: 0px 20px 20px 20px;
+}
+.user-component:hover {
+  transform: scale(1.01);
+}
+
+.friends-screen_find-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends-screen_find-header input {
+  width: 100%;
+  background-color: #000000;
+  padding: 10px;
+  border: none;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+}
+.friends-screen_find-header i {
+  position: absolute;
+  right: 35px;
+}
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.friends-screen {
+  margin-bottom: 100px;
+}
+
+#splash-screen {
+  background-color: #000000;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 1s;
+  z-index: 7;
+}

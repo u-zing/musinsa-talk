@@ -6,7 +6,7 @@
     <title>Welcome to MUSINSA Talk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body id="main-login">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -16,7 +16,6 @@
         <span>08:29</span>
       </div>
       <div class="status-bar__column">
-        <span>100%</span>
         <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
@@ -30,8 +29,8 @@
     </header>
 
     <form id="login-form" action="freinds.html" method="get">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+      <input required type="text" placeholder="Email or phone number" />
+      <input required type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <div class="login-form__find-bar">
         <div class="login-form__find-bar-auto">
@@ -46,6 +45,12 @@
       </div>
       <a href="#">가입만 해도 즉시 30% 할인 <button>회원가입</button></a>
     </form>
+
+    <div id="no-mobile">
+      <i class="fa-brands fa-github"></i>
+      <span>Your screen is so big</span>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/9076bbc1a6.js"
       crossorigin="anonymous"
