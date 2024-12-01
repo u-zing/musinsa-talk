@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #000000;
+  background-color: #f5f5f5;
 }
 .repository-create__title {
   font-size: 17px;
@@ -61,37 +61,16 @@
   text-align: center;
   margin: 70px 0px;
   font-size: 15px;
-  color: white;
   line-height: 20px;
 }
 .repository-create__form {
   display: flex;
   flex-direction: column;
 }
-.repository-create__form > #name {
-  padding: 5px 120px 5px 10px;
-  color: #738c8c;
-  background-color: #151b23;
-  border: var(--main-border);
-  border-radius: 10px;
-  margin: 10px;
-}
-.repository-create__form-btn {
-  background-color: var(--yellow);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  margin-top: 10px;
-}
-.repository-create__form-radio {
-  margin: 10px 0px;
-}
 .open-chat {
   margin-top: 25px;
   padding: 20px;
-  background-color: #000000;
-  color: white;
+  background-color: #f5f5f5;
 }
 .open-chat__header {
   display: flex;
@@ -135,5 +114,4 @@
 }
 .explore__members i {
   margin-right: 10px;
-  color: #738c8c;
 }

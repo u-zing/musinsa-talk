@@ -33,33 +33,37 @@
 .more-screen-top {
   display: flex;
 }
-.more-screen__profile {
+.more-screen__info {
   display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  margin-right: 20px;
+  flex-direction: column;
 }
-.more-screen__profile > img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-  margin-right: 40px;
+.more-screen__profile {
+  background-color: #f5f5f5;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .more-screen__profile__text {
   display: flex;
-  flex-direction: column;
-  align-self: center;
+}
+.more-screen__profile__text > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .more-screen__profile__title {
-  opacity: 0.7;
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.more-screen__profile__sub-title {
+  font-size: 13px;
 }
 .more-screen__profile__edit {
   background-color: #000000;
   font-size: 15px;
-  width: 200px;
+  padding: 0px 10px;
   height: 33px;
   border-radius: 10px;
   margin-bottom: 25px;
@@ -67,13 +71,6 @@
   align-items: center;
   justify-content: center;
   color: white;
-}
-.more-screen__profile__follow {
-  font-size: 13px;
-  opacity: 0.5;
-}
-.more-screen__profile__follow:nth-child(2) {
-  opacity: 1;
 }
 .more-screen__repositories {
   border: 2px solid rgba(255, 255, 255, 0.227);
@@ -83,6 +80,18 @@
   box-sizing: border-box;
 }
 
+.my-state {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.my-state div h5 {
+  font-weight: 600;
+}
 .icon-row-repository {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
