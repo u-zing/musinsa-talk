@@ -71,6 +71,10 @@
   align-items: center;
   justify-content: center;
   color: white;
+  cursor: pointer;
+}
+.more-screen__profile__edit:hover {
+  transform: scale(1.1);
 }
 .more-screen__repositories {
   border: 2px solid rgba(255, 255, 255, 0.227);
