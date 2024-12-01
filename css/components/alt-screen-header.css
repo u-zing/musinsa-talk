@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 .alt-header__title {
   font-size: 25px;
@@ -29,5 +29,5 @@
   width: 33%;
 }
 .alt-header__column i {
-  color: white;
+  color: black;
 }
