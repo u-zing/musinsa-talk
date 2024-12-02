@@ -8,13 +8,14 @@
 @import "components/alt-screen-header.css";
 @import "components/icon-row.css";
 @import "components/badge.css";
+@import "components/keyboard.css";
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/chat.css";
 @import "screen/find.css";
 @import "screen/more.css";
-@import "screen/settingss.css";
+@import "screen/settings.css";
 body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(255, 255, 255);

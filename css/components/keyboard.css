@@ -1,0 +1,52 @@
+.keyboard {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 10px 0px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+.long {
+  width: 60px;
+}
+.key:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
+.space-key {
+  width: 60%;
+}
+.key-color {
+  background-color: #d3d3d3;
+}
+
+/* 입력 필드에 포커스가 있을 때 키보드를 보이게 설정 */
+.reply:focus-within + .keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 키보드의 기본 스타일 */
+.keyboard-row {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
