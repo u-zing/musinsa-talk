@@ -54,7 +54,7 @@
 #splash-screen {
   background-color: #000000;
   position: fixed;
-  height: 100vh;
+  height: 1000vh;
   width: 100vw;
   top: 0;
   display: flex;
