@@ -32,3 +32,37 @@ body::-webkit-scrollbar {
   background-color: black;
   color: white;
 }
+.fa-gear:hover {
+  display: inline-block; /* 인라인 요소인 아이콘의 애니메이션 적용을 위해 필요 */
+  animation: rotate 2s linear infinite; /* 2초에 한 번 회전, 무한 반복 */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fa-bell:hover {
+  display: inline-block;
+  animation: swing 1s linear infinite;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(5deg); /* 기본 상태 */
+  }
+  25% {
+    transform: rotate(-20deg); /* 왼쪽으로 기울기 */
+  }
+  50% {
+    transform: rotate(0deg); /* 원래 위치로 돌아오기 */
+  }
+  75% {
+    transform: rotate(20deg); /* 오른쪽으로 기울기 */
+  }
+  100% {
+    transform: rotate(5deg); /* 기본 상태로 돌아오기 */
+  }
+}
